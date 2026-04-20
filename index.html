@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deep Delta Sleep — Sleep Soundscapes for Deep Rest</title>
+  <meta name="description" content="AI-assisted ambient soundscapes designed for deep sleep, focus, and relaxation. Brown noise, binaural beats, 432 Hz ambient, and hybrid sessions." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #0a0d14;
+      color: #d4d8e2;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(180deg, #0d1220 0%, #131929 100%);
+      border-bottom: 1px solid #1e2840;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: normal;
+      letter-spacing: 0.04em;
+      color: #e8ecf4;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #8a9ab8;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      padding: 16px 24px;
+      background: #0d1220;
+      border-bottom: 1px solid #1a2035;
+    }
+
+    nav a {
+      color: #7a8fb0;
+      text-decoration: none;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    nav a:hover { color: #c4cfe8; }
+
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 72px;
+    }
+
+    .hero h2 {
+      font-size: 1.9rem;
+      font-weight: normal;
+      color: #c8d4eb;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: #8a9ab8;
+      max-width: 600px;
+      margin: 0 auto 32px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      padding: 14px 36px;
+      background: #1a3560;
+      color: #c8d8f4;
+      text-decoration: none;
+      border-radius: 4px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      border: 1px solid #2a4a7a;
+      transition: background 0.2s;
+    }
+
+    .cta-btn:hover { background: #1f3f6a; }
+
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-bottom: 72px;
+    }
+
+    .pillar-card {
+      background: #0f1626;
+      border: 1px solid #1c2840;
+      border-radius: 6px;
+      padding: 28px 24px;
+    }
+
+    .pillar-card h3 {
+      font-size: 1.05rem;
+      color: #b0bfd8;
+      margin-bottom: 10px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    .pillar-card p {
+      font-size: 0.92rem;
+      color: #6a7a96;
+      line-height: 1.65;
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: normal;
+      color: #c0cce4;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #1a2540;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    .about-block {
+      background: #0d1422;
+      border: 1px solid #1a2535;
+      border-radius: 6px;
+      padding: 36px;
+      margin-bottom: 72px;
+    }
+
+    .about-block p {
+      font-size: 0.97rem;
+      color: #8090ae;
+      margin-bottom: 16px;
+    }
+
+    .about-block p:last-child { margin-bottom: 0; }
+
+    .disclosure-block {
+      background: #0c1220;
+      border-left: 3px solid #1e3050;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .disclosure-block h3 {
+      font-size: 0.85rem;
+      color: #6070a0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 10px;
+    }
+
+    .disclosure-block p {
+      font-size: 0.88rem;
+      color: #5a6a8a;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #080b12;
+      border-top: 1px solid #141c2e;
+      text-align: center;
+      padding: 32px 24px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.82rem;
+      color: #4a5570;
+    }
+
+    footer a {
+      color: #5a6890;
+      text-decoration: none;
+    }
+
+    footer a:hover { color: #8090b8; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Deep Delta Sleep</h1>
+    <p>Sleep soundscapes engineered for deep rest — brown noise, binaural beats, 432&nbsp;Hz ambient, and hybrid sessions.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="https://www.youtube.com/@deep_delta_sleep" target="_blank" rel="noopener">YouTube</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
+  <main>
+
+    <section class="hero">
+      <h2>Sound Designed for the Brain's Sleep Architecture</h2>
+      <p>Each session targets the delta and theta frequency bands associated with slow-wave and REM sleep — delivered through four distinct content pillars.</p>
+      <a class="cta-btn" href="https://www.youtube.com/@deep_delta_sleep" target="_blank" rel="noopener">Watch on YouTube</a>
+    </section>
+
+    <h2 class="section-title">Content Pillars</h2>
+    <div class="pillars">
+      <div class="pillar-card">
+        <h3>Delta Binaural Beats</h3>
+        <p>3&nbsp;Hz binaural differential (200&nbsp;Hz left / 203&nbsp;Hz right) over a deep brown noise carrier. Designed for slow-wave sleep onset.</p>
+      </div>
+      <div class="pillar-card">
+        <h3>432&nbsp;Hz Ambient</h3>
+        <p>Nature soundscapes tuned to 432&nbsp;Hz with a 6&nbsp;Hz theta binaural differential — forest rain, ocean drift, highland fog.</p>
+      </div>
+      <div class="pillar-card">
+        <h3>Brown Noise Environments</h3>
+        <p>True 1/f² spectrum brown noise — deeper than pink, warmer than white — layered with immersive environmental textures.</p>
+      </div>
+      <div class="pillar-card">
+        <h3>Hybrid Sessions</h3>
+        <p>Layered combinations: v4 brown noise base + 432&nbsp;Hz carrier + 2&nbsp;Hz delta binaural differential, for full-spectrum relaxation.</p>
+      </div>
+    </div>
+
+    <h2 class="section-title">About Deep Delta Sleep</h2>
+    <div class="about-block">
+      <p>Deep Delta Sleep is a sleep audio channel operated by Slow River Digital. Every session is produced using AI-assisted audio generation and proprietary signal processing to deliver accurate frequency profiles.</p>
+      <p>All published audio is reviewed before upload to ensure the stated frequency specifications are present in the final file. No session is published with unverified technical claims.</p>
+      <p>The channel publishes daily — two sessions per day — across all four content pillars. Sessions are 10 hours in duration by default, with 60-second Shorts available for preview on YouTube.</p>
+    </div>
+
+    <div class="disclosure-block">
+      <h3>AI Disclosure</h3>
+      <p>All audio on this channel is created with the assistance of AI audio generation tools and programmatic signal processing. Content is intended for relaxation, sleep, and focus purposes only. It is not a substitute for professional medical advice. If you experience sleep disorders or chronic anxiety, please consult a qualified healthcare provider.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Slow River Digital &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="mailto:slowriverdigital@gmail.com">slowriverdigital@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
