@@ -105,6 +105,7 @@
         scope: SCOPES,
         redirect_uri: REDIRECT_URI,
         state: state,
+        disable_auto_auth: "1",
       });
 
       window.location.href = "https://www.tiktok.com/v2/auth/authorize/?" + params.toString();
